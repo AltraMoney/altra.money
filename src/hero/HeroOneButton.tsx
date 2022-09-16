@@ -1,13 +1,14 @@
 import { ReactNode } from 'react';
 
 type IHeroOneButtonProps = {
-  title: ReactNode;
+  title?: ReactNode;
   description: string;
   button?: ReactNode;
 };
 
 const HeroOneButton = (props: IHeroOneButtonProps) => (
   <header className="text-center">
+    <img src={`/assets/images/AltraMoney-logo.svg`} alt="AltraMoney logo" />
     <h1 className="text-5xl text-gray-900 font-bold whitespace-pre-line leading-hero">
       {props.title}
     </h1>

@@ -20,14 +20,7 @@ const Hero = () => (
     </Section>
 
     <Section yPadding="pt-20 pb-32">
-      <HeroOneButton
-        title={
-          <>
-            <span className="text-primary-500">AltraMoney</span>
-          </>
-        }
-        description="The operating system for your money"
-      />
+      <HeroOneButton description="The operating system for your money" />
     </Section>
   </Background>
 );
