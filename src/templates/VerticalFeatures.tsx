@@ -13,7 +13,7 @@ const VerticalFeatures = () => (
       imageAlt="First feature alt text"
     />
     <VerticalFeatureRow
-      title="Suggestions and action items"
+      title="Suggested actions"
       description="Take action with a personalised list of actions to take ownership of your money."
       image="/assets/images/feature2.svg"
       imageAlt="Second feature alt text"
