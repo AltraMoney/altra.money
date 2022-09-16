@@ -1,4 +1,5 @@
 import { Meta } from '../layout/Meta';
+import { SignUpForm } from '../signUpForm/SignUpForm';
 import { AppConfig } from '../utils/AppConfig';
 import { Banner } from './Banner';
 import { Footer } from './Footer';
@@ -10,6 +11,7 @@ const Base = () => (
     <Meta title={AppConfig.title} description={AppConfig.description} />
     <Hero />
     <VerticalFeatures />
+    <SignUpForm />
     <Banner />
     <Footer />
   </div>
