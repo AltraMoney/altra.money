@@ -9,33 +9,33 @@ const VerticalFeatures = () => (
     <VerticalFeatureRow
       title="Financial plan"
       description="Build out a financial plan that aligns with your personal values using the AltraBlueprint."
-      image="/assets/images/feature.svg"
+      image="/assets/images/blue_splash.svg"
       imageAlt="Financial plan"
     />
     <VerticalFeatureRow
       title="Suggested actions"
       description="A personalised list of actions to take ownership of your money."
-      image="/assets/images/feature2.svg"
+      image="/assets/images/red_splash.svg"
       imageAlt="Suggested actions"
       reverse
     />
     <VerticalFeatureRow
       title="Education"
       description="Cut the noise and build your plan on a bedrock of fundamental principles."
-      image="/assets/images/feature3.svg"
+      image="/assets/images/pink_splash.svg"
       imageAlt="Education"
     />
     <VerticalFeatureRow
       title="Advice"
       description="Get financial advice from professionals or through a community forum."
-      image="/assets/images/feature3.svg"
+      image="/assets/images/yellow_splash.svg"
       imageAlt="Advice"
       reverse
     />
     <VerticalFeatureRow
       title="Altruisum"
       description="Do good in the world by donating money in an effectively alruistic way."
-      image="/assets/images/feature3.svg"
+      image="/assets/images/turquoise_splash.svg"
       imageAlt="Altruism"
     />
   </Section>
