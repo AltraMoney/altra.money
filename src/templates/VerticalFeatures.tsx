@@ -4,39 +4,39 @@ import { Section } from '../layout/Section';
 const VerticalFeatures = () => (
   <Section
     // title="AltraMoney"
-    description="AltraMoney is a financial planning application that aims to sustainably help as many people as possible to have their money be directed intelligently to serve their values."
+    description="Run your entire money life though the AltraMoney operating system with principles-based education and on-demand financial advice. See your money system clearly, get the facts, and speak to the experts."
   >
     <VerticalFeatureRow
       title="Financial plan"
       description="Build out a financial plan that aligns with your personal values using the AltraBlueprint."
       image="/assets/images/feature.svg"
-      imageAlt="First feature alt text"
+      imageAlt="Financial plan"
     />
     <VerticalFeatureRow
       title="Suggested actions"
-      description="Take action with a personalised list of actions to take ownership of your money."
+      description="A personalised list of actions to take ownership of your money."
       image="/assets/images/feature2.svg"
-      imageAlt="Second feature alt text"
+      imageAlt="Suggested actions"
       reverse
     />
     <VerticalFeatureRow
       title="Education"
-      description="Educational content"
+      description="Cut the noise and build your plan on a bedrock of fundamental principles."
       image="/assets/images/feature3.svg"
-      imageAlt="Third feature alt text"
+      imageAlt="Education"
     />
     <VerticalFeatureRow
       title="Advice"
-      description="Get financial advice from professionals and a community forum"
+      description="Get financial advice from professionals or through a community forum."
       image="/assets/images/feature3.svg"
-      imageAlt="Third feature alt text"
+      imageAlt="Advice"
       reverse
     />
     <VerticalFeatureRow
       title="Altruisum"
       description="Do good in the world by donating money in an effectively alruistic way."
       image="/assets/images/feature3.svg"
-      imageAlt="Third feature alt text"
+      imageAlt="Altruism"
     />
   </Section>
 );
